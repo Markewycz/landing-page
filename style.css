@@ -5,13 +5,21 @@
   font-family: "Roboto", sans-serif;
 }
 
-.header {
+/* HEADER SECTION */
+
+.header-section {
+  background-color: #1f2937;
+}
+
+.header-content {
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 240px;
-  background-color: #1f2937;
+  margin: 0 auto;
+  padding: 15px 0;
 }
+
 .logo {
   color: #fff;
   font-size: 24px;
@@ -40,29 +48,35 @@ button {
   font-size: 18px;
 }
 
+/* HERO SECTION */
+
 .hero-section {
-  display: flex;
   background-color: #1f2937;
-  padding: 120px 240px;
+}
+
+.hero-content {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 140px 0;
+  display: flex;
   gap: 54px;
 }
 
-.hero-title {
+.hero-header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex-wrap: wrap;
   flex: 1;
 }
 
-.hero-header {
+.hero-title {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
-.hero-text {
-  color: #e5e7eb;
+.sub-text {
+  color: #cfd3d7;
   font-size: 18px;
 }
 
@@ -76,10 +90,15 @@ button {
   color: #fff;
 }
 
-.information-section {
-  padding: 32px 240px;
+/* INFORMATION SECTION */
+
+.information-content {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 60px 0;
   text-align: center;
 }
+
 .information-header {
   font-size: 38px;
   font-weight: 900;
@@ -91,7 +110,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 60px;
 }
 
 .card {
@@ -109,4 +128,67 @@ button {
 
 .card-description {
   color: #79797a;
+}
+
+/* QUOTE SECTION */
+
+body > .quote-section {
+  background-color: #e5e7eb;
+  margin-top: 60px;
+}
+.quote-content {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 26px;
+}
+
+/* MODAL SECTION */
+
+.modal {
+  width: 70vw;
+  padding: 50px 130px;
+  margin: 100px auto;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.btn.signup {
+  border: 2px solid #f9faf8;
+}
+
+.modal-title {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+/* FOOTER SECTION*/
+
+footer {
+  background-color: #1f2937;
+  padding: 45px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+small {
+  color: #cfd3d7;
+  font-size: 16px;
 }
